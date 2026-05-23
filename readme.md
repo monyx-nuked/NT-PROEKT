@@ -1,6 +1,9 @@
 # brook
 Bitta random proekt kitob bot
 
+# Requirements
+Python 3.13
+
 # Usage/Ishlatish
 1. .env.example ni .env ga nomini o'zgartiring
 2. databaza yarating va misc/setup.sql dagi komandalarni ishlating
