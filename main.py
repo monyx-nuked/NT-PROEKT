@@ -66,7 +66,7 @@ async def list_books(message: types.Message):
 
     response_text = "> Kutubxonamizdagi kitoblar ro'yxati:\n\n"
     for title, author, copies in books:
-        response_text += f"🔹 {title} (Muallif: {author}) — Soni: {copies} ta\n"
+        response_text += f"- {title} (Muallif: {author}) — Soni: {copies} ta\n"
 
     await message.answer(response_text)
 
